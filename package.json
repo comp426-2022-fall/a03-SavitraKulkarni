@@ -1,0 +1,26 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "description": "a3",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-savitrakulkarni.git"
+  },
+  "author": "savitrakulkarni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-savitrakulkarni/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-savitrakulkarni#readme",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.7"
+  },
+  "type": "module"
+}
